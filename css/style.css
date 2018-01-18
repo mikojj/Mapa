@@ -2,6 +2,7 @@
 
 html {
   font-family: sans-serif;
+  background-image:url(https://i.pinimg.com/originals/11/79/b4/1179b456419cdfc14cdae91405799ec7.jpg);
 }
 
 .menu {
@@ -29,7 +30,7 @@ html {
 }
 
 .container {
-  padding: 20px;
+  padding: 20px 200px 20px 150px;
 }
 
 h1 {
