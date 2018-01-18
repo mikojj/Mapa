@@ -1,15 +1,56 @@
 /* use classes and ids */
-
 html {
-  font-family: sans-serif;
+  font-family: "georgia", serif;
+  font-size: 114%;
+  color: #555555;
 }
 
 body {
-  background-image:url("https://i.pinimg.com/originals/11/79/b4/1179b456419cdfc14cdae91405799ec7.jpg");
+  /*background-image:url("https://i.pinimg.com/originals/11/79/b4/1179b456419cdfc14cdae91405799ec7.jpg");*/
+  background-image: url("../images/pozadie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+h1 {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "Arial", sans-serif;
+  color: #555;
+}
+
+p {
+  line-height: 180%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 13px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 75%;
+  letter-spacing: 1px;
+}
+
+a:hover,
+a:hover:visited {
+  color: #00ceff;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #999999;
+}
+
+
+
 .menu {
-  background: black;
+  background: #1C3D69;
   color: white;
   padding: 5px 20px 5px 20px;
 }
@@ -33,9 +74,14 @@ body {
 }
 
 .container {
-  padding: 20px 200px 20px 150px;
+  padding: 40px;
+  margin: 0 200px 0 200px;
+  background-color: rgba(255,255,255,0.7);
 }
 
-h1 {
-  margin: 0;
+.container img {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border: 1px solid #999;
 }
