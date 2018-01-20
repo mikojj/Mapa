@@ -40,7 +40,7 @@ a {
 a:hover,
 a:hover:visited {
   color: #00ceff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
